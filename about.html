@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>AMIK LAMPUNG</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png"></a>
+            <div class="nav-link" id="navlink">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="profil.html">Profil</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+    <!----------Profil Us Content------->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We Are AMIK LAMPUNG</h1>
+                <p>Kenali Lingkungan Kampus AMIK LAMPUNG yuk....😉
+                    Apa aja sih yang ada di Kampus AMIK LAMPUNG?
+                    <br>
+                    -------------------------------------------------------------------
+                    <br>
+                    Teori yang telah kita pelajari,akan sangat berguna jika segera kita praktekkan,agar tidak hilang lenyap begitu saja,hehe...😁🤗
+                    <br>
+                    
+                    Dalam Prodi Manajemen Informatika,kita dapat belajar cara mengelola,menyimpan,serta membagikan Informasi dalam bentuk Teknologi.
+                    Berbicara tentang "Informatika" sangat banyak hal yang harus kita pelajari,lantaran Ilmu Informatika sangat luas serta menarik untuk dipelajari..😁😉
+                    Oleh karena itu,Belajar Informatika itu sangat penting,serta memiliki banyak peluang di dunia Kerja lho...</p>
+                <a href="" class="hero-btn blue-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="img/AMIK.jpeg">
+            </div>
+        </div>
+    </section>  
+
+
+<!---------Footer-------->
+<section class="Footer">
+    <h4>About Us</h4>
+    <p>Perguruan Tinggi Satu Nusa merupakan perguruan tinggi swasta yang didirikan pada tahun 1999 oleh pendiri, Hi. Ismet Inonu, S.E., M.M. bersama Hj. Rita Herlina, S.Sos., M.M. Perguruan Tinggi Satu Nusa terdiri dari: Sekolah Tinggi Ilmu Ekonomi (STIE) Satu Nusa, Sekolah Tinggi Manajemen Informatika dan Komputer (STMIK) Tunas Bangsa, Sekolah Tinggi Bahasa Asing (STBA) Yunisla, Sekolah Tinggi Ilmu Perkebunan (STIBUN) Lampung, Akademi Pariwisata Satu Nusa (Akparsan), dan Akademi Manajemen Informatika dan Komputer (AMIK) Lampung. Kampus ini terletak di Jl. Zainal Abidin Pagaralam No. 17a, Rajabasa, Bandar Lampung, Provinsi Lampung, 35144. Untuk informasi dan pendaftaran silakan hubungi 081272-250-250.</p>
+    <div class="icons">
+        <a href="https://youtube.com/channel/UCDVHhjnn42eFYn9YFydikww"><i class="fa fa-youtube"></a></i>
+        <a href="https://www.instagram.com/invites/contact/?i=2gqsp7dz409p&utm_content=nf2fs5k"><i class="fa fa-instagram"></a></i>
+        <a href=""><i class="fa fa-whatsapp"></a></i>
+    </div>
+    <p>Made With <i class="fa fa-heart-o">By Mahasiswa AMIK LAMPUNG</i></p>
+</section>
+<!---------JavaScript for Toggle menu---------->
+    <script>
+
+         var navlink = document.getElementById("navlink");
+
+         function showMenu(){
+             navlink.style.right = "0";
+         }
+         function hideMenu(){
+             navlink.style.right = "-200px";
+         }
+
+    </script>
+</body>
+</html>
